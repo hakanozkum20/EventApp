@@ -1,0 +1,13 @@
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\bin\Debug\net9.0\EventApp.Domain.deps.json
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\bin\Debug\net9.0\EventApp.Domain.dll
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\bin\Debug\net9.0\EventApp.Domain.pdb
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\obj\Debug\net9.0\EventApp.Domain.csproj.AssemblyReference.cache
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\obj\Debug\net9.0\EventApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\obj\Debug\net9.0\EventApp.Domain.AssemblyInfoInputs.cache
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\obj\Debug\net9.0\EventApp.Domain.AssemblyInfo.cs
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\obj\Debug\net9.0\EventApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\obj\Debug\net9.0\EventApp.Domain.sourcelink.json
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\obj\Debug\net9.0\EventApp.Domain.dll
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\obj\Debug\net9.0\refint\EventApp.Domain.dll
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\obj\Debug\net9.0\EventApp.Domain.pdb
+C:\Users\ESTA\Documents\EventApp\Core\EventApp.Domain\obj\Debug\net9.0\ref\EventApp.Domain.dll

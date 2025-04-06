@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventApp.Infrastructure", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventApp.Persistence", "Infrastructure\EventApp.Persistence\EventApp.Persistence.csproj", "{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventApp.", "Presentation\EventApp\EventApp..csproj", "{6BF43506-611E-4AEC-BDC9-CC6D3152D1A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventApp.API", "Presentation\EventApp\EventApp.API.csproj", "{6BF43506-611E-4AEC-BDC9-CC6D3152D1A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventApp.Domain", "Core\EventApp.Domain\EventApp.Domain.csproj", "{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}"
 EndProject

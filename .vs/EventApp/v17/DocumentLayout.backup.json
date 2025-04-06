@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ESTA\\Documents\\EventApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|c:\\users\\esta\\documents\\eventapp\\core\\eventapp.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|solutionrelative:core\\eventapp.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|c:\\users\\esta\\documents\\eventapp\\infrastructure\\eventapp.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|solutionrelative:infrastructure\\eventapp.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BF43506-611E-4AEC-BDC9-CC6D3152D1A0}|Presentation\\EventApp\\EventApp.API.csproj|c:\\users\\esta\\documents\\eventapp\\presentation\\eventapp\\eventapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6BF43506-611E-4AEC-BDC9-CC6D3152D1A0}|Presentation\\EventApp\\EventApp.API.csproj|solutionrelative:presentation\\eventapp\\eventapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventApp.API.csproj",
+              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Presentation\\EventApp\\EventApp.API.csproj",
+              "RelativeDocumentMoniker": "Presentation\\EventApp\\EventApp.API.csproj",
+              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Presentation\\EventApp\\EventApp.API.csproj",
+              "RelativeToolTip": "Presentation\\EventApp\\EventApp.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-06T14:49:51.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Persistence\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EventApp.Persistence\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Persistence\\ServiceRegistration.cs",
+              "RelativeToolTip": "Infrastructure\\EventApp.Persistence\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T12:58:23.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\Entities\\Company.cs",
+              "RelativeDocumentMoniker": "Core\\EventApp.Domain\\Entities\\Company.cs",
+              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\Entities\\Company.cs",
+              "RelativeToolTip": "Core\\EventApp.Domain\\Entities\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T13:11:23.925Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
