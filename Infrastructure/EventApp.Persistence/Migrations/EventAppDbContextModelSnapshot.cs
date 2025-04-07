@@ -31,7 +31,7 @@ namespace EventApp.Persistence.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<Guid>("CustomerId")
+                    b.Property<Guid?>("CustomerId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("Name")
@@ -195,7 +195,7 @@ namespace EventApp.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ApplicationUser");
+                    b.ToTable("ApplicationUsers");
                 });
 
             modelBuilder.Entity("EventApp.Domain.Entities.UserCompany", b =>
@@ -232,9 +232,7 @@ namespace EventApp.Persistence.Migrations
                 {
                     b.HasOne("EventApp.Domain.Entities.Customer", "Customer")
                         .WithMany("Companies")
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CustomerId");
 
                     b.Navigation("Customer");
                 });

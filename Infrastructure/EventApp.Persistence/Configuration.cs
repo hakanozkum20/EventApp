@@ -14,10 +14,10 @@ namespace EventApp.Persistence
             get
             {
                 ConfigurationManager configurationManager = new ();
-            configurationManager.SetBasePath(Directory.GetCurrentDirectory());
+            configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../../Presentation/EventApp"));
             configurationManager.AddJsonFile("appsettings.json");
-            var connectionString = configurationManager.GetConnectionString("DatabasePostgres");
-            return connectionString;
+            return configurationManager.GetConnectionString("DatabasePostgres");
+            
             }
          }
     }

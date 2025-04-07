@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EventApp.Persistence.Migrations
 {
     [DbContext(typeof(EventAppDbContext))]
-    [Migration("20250406150017_basic_init1")]
-    partial class basic_init1
+    [Migration("20250406222637_basic_init2")]
+    partial class basic_init2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,7 +34,7 @@ namespace EventApp.Persistence.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<Guid>("CustomerId")
+                    b.Property<Guid?>("CustomerId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("Name")
@@ -235,9 +235,7 @@ namespace EventApp.Persistence.Migrations
                 {
                     b.HasOne("EventApp.Domain.Entities.Customer", "Customer")
                         .WithMany("Companies")
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CustomerId");
 
                     b.Navigation("Customer");
                 });

@@ -10,10 +10,10 @@ namespace EventApp.Domain.Entities
     public class Company : BaseEntity
     {
         public string Name { get; set; }
-        public ICollection<Event> Events { get; set; }
-        public Guid CustomerId { get; set; }
-        public Customer Customer { get; set; }
-        public ICollection<UserCompany> UserCompanies { get; set; }
+        public ICollection<Event>? Events { get; set; }
+        public Guid? CustomerId { get; set; }
+        public Customer? Customer { get; set; }
+        public ICollection<UserCompany>? UserCompanies { get; set; }
         
 
     }

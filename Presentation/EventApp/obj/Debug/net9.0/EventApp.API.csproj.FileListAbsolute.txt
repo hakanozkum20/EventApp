@@ -136,10 +136,16 @@ C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\obj\Debug\net9.0\staticwe
 C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.EventApp.API.props
 C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.EventApp.API.props
 C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\obj\Debug\net9.0\EventApp.FAC5BD20.Up2Date
 C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\obj\Debug\net9.0\EventApp.API.dll
 C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\obj\Debug\net9.0\refint\EventApp.API.dll
 C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\obj\Debug\net9.0\EventApp.API.pdb
 C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\obj\Debug\net9.0\EventApp.API.genruntimeconfig.cache
 C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\obj\Debug\net9.0\ref\EventApp.API.dll
+C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\ESTA\Documents\EventApp\Presentation\EventApp\bin\Debug\net9.0\Scalar.AspNetCore.dll

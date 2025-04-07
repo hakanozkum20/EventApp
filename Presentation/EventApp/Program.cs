@@ -1,5 +1,6 @@
 
 using EventApp.Persistence;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +17,17 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-}
+    app.MapScalarApiReference(opt =>
+    {
+        opt
+            .WithTitle("API Reference")
+            .WithTheme( ScalarTheme.DeepSpace)
+            
+            .WithDefaultHttpClient(ScalarTarget.CSharp, ScalarClient.HttpClient);
+    });
+    
+    
+    }
 
 app.UseHttpsRedirection();
 

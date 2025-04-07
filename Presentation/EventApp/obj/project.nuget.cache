@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TXaRJi/12gE=",
+  "dgSpecHash": "kQPfBwBfuq8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ESTA\\Documents\\EventApp\\Presentation\\EventApp\\EventApp.API.csproj",
+  "projectFilePath": "c:\\Users\\ESTA\\Documents\\EventApp\\Presentation\\EventApp\\EventApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ESTA\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ESTA\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.3\\microsoft.aspnetcore.cryptography.internal.9.0.3.nupkg.sha512",
@@ -45,6 +45,7 @@
     "C:\\Users\\ESTA\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\ESTA\\.nuget\\packages\\npgsql\\9.0.2\\npgsql.9.0.2.nupkg.sha512",
     "C:\\Users\\ESTA\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.3\\npgsql.entityframeworkcore.postgresql.9.0.3.nupkg.sha512",
+    "C:\\Users\\ESTA\\.nuget\\packages\\scalar.aspnetcore\\2.1.6\\scalar.aspnetcore.2.1.6.nupkg.sha512",
     "C:\\Users\\ESTA\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\ESTA\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\ESTA\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",

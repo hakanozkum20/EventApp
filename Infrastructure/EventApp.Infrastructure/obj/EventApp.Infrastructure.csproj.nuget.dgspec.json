@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj": {}
+    "c:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj": {
+    "c:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj",
+        "projectUniqueName": "c:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj",
         "projectName": "EventApp.Application",
-        "projectPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj",
+        "projectPath": "c:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj",
         "packagesPath": "C:\\Users\\ESTA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\obj\\",
+        "outputPath": "c:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj"
+              "c:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj": {
+                "projectPath": "c:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj": {
+    "c:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj",
         "projectName": "EventApp.Domain",
-        "projectPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj",
+        "projectPath": "c:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj",
         "packagesPath": "C:\\Users\\ESTA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\obj\\",
+        "outputPath": "c:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj": {
+    "c:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj",
         "projectName": "EventApp.Infrastructure",
-        "projectPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj",
+        "projectPath": "c:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ESTA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -172,8 +172,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj": {
-                "projectPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj"
+              "c:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj": {
+                "projectPath": "c:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj"
               }
             }
           }
