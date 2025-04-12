@@ -300,3 +300,6 @@ C:/Users/ESTA/Documents/EventApp/Presentation/EventApp/bin/Debug/net9.0/Scalar.A
 /home/esta/Documents/eventApp/Presentation/EventApp/obj/Debug/net9.0/EventApp.API.pdb
 /home/esta/Documents/eventApp/Presentation/EventApp/obj/Debug/net9.0/EventApp.API.genruntimeconfig.cache
 /home/esta/Documents/eventApp/Presentation/EventApp/obj/Debug/net9.0/ref/EventApp.API.dll
+/home/esta/Documents/eventApp/Presentation/EventApp/bin/Debug/net9.0/FluentValidation.dll
+/home/esta/Documents/eventApp/Presentation/EventApp/bin/Debug/net9.0/FluentValidation.AspNetCore.dll
+/home/esta/Documents/eventApp/Presentation/EventApp/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll

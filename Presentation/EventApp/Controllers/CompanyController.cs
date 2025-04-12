@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EventApp.Application.Repositories;
+using EventApp.Application.ViewModels.Companies;
 using EventApp.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -54,21 +55,21 @@ namespace EventApp
         /// <summary>
         /// Yeni bir şirket ekler
         /// </summary>
-        /// <param name="companyDto">Şirket bilgileri</param>
+        /// <param name="model">Şirket bilgileri</param>
         /// <returns>Oluşturulan şirket</returns>
         [HttpPost]
         [ProducesResponseType(typeof(Company), StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> Create([FromBody] CompanyCreateDto companyDto)
+        public async Task<IActionResult> Create([FromBody] VM_Create_Company model)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+            // ModelState kontrolü artık ValidationFilter tarafından otomatik olarak yapılıyor
+            // Fluent Validation ile doğrulama yapılıyor
 
             var company = new Company
             {
                 Id = Guid.NewGuid(),
-                Name = companyDto.Name,
-                CustomerId = companyDto.CustomerId
+                Name = model.Name,
+                CustomerId = model.CustomerId
             };
 
             await _companyWriteRepository.AddAsync(company);
@@ -81,23 +82,23 @@ namespace EventApp
         /// Mevcut bir şirketi günceller
         /// </summary>
         /// <param name="id">Şirket ID</param>
-        /// <param name="companyDto">Güncellenmiş şirket bilgileri</param>
+        /// <param name="model">Güncellenmiş şirket bilgileri</param>
         /// <returns>Güncellenen şirket</returns>
         [HttpPut("{id}")]
         [ProducesResponseType(typeof(Company), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<IActionResult> Update(string id, [FromBody] CompanyUpdateDto companyDto)
+        public async Task<IActionResult> Update(string id, [FromBody] VM_Update_Company model)
         {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
+            // ModelState kontrolü artık ValidationFilter tarafından otomatik olarak yapılıyor
+            // Fluent Validation ile doğrulama yapılıyor
 
             var company = await _companyReadRepository.GetByIdAsync(id);
             if (company == null)
                 return NotFound($"Şirket bulunamadı: {id}");
 
-            company.Name = companyDto.Name;
-            company.CustomerId = companyDto.CustomerId;
+            company.Name = model.Name;
+            company.CustomerId = model.CustomerId;
 
             _companyWriteRepository.Update(company);
             await _companyWriteRepository.SaveAsync();
@@ -142,37 +143,5 @@ namespace EventApp
 
             return Ok("Örnek şirketler eklendi");
         }
-    }
-
-    /// <summary>
-    /// Şirket oluşturma için DTO
-    /// </summary>
-    public class CompanyCreateDto
-    {
-        /// <summary>
-        /// Şirket adı
-        /// </summary>
-        public string Name { get; set; }
-
-        /// <summary>
-        /// Müşteri ID (opsiyonel)
-        /// </summary>
-        public Guid? CustomerId { get; set; }
-    }
-
-    /// <summary>
-    /// Şirket güncelleme için DTO
-    /// </summary>
-    public class CompanyUpdateDto
-    {
-        /// <summary>
-        /// Şirket adı
-        /// </summary>
-        public string Name { get; set; }
-
-        /// <summary>
-        /// Müşteri ID (opsiyonel)
-        /// </summary>
-        public Guid? CustomerId { get; set; }
     }
 }

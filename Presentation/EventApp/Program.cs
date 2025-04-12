@@ -1,14 +1,24 @@
 
+using EventApp.Application.ViewModels.Companies;
+using EventApp.Infrastructure.Filters;
 using EventApp.Persistence;
+using FluentValidation;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddPersistenceServices();
+
 builder.Services.AddCors(opt => opt.AddDefaultPolicy(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
-builder.Services.AddControllers();
+
+
+builder.Services.AddControllers(op => op.Filters.Add<ValidationFilter>());
+
+
+
+
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 

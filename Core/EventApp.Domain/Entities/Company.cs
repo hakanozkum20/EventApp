@@ -14,7 +14,7 @@ namespace EventApp.Domain.Entities
         public Guid? CustomerId { get; set; }
         public Customer? Customer { get; set; }
         public ICollection<UserCompany>? UserCompanies { get; set; }
-        
+
 
     }
 }

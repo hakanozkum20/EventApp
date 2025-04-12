@@ -45,3 +45,5 @@ namespace EventApp.Persistence.Contexts
         }
     }
 }
+
+// DatabasePostgres": "Server=192.168.1.17;Port=5432;Database=EventPostgres;User Id=casaos;Password=casaos;

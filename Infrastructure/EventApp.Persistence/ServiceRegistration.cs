@@ -9,6 +9,7 @@ using EventApp.Application.Repositories;
 using EventApp.Persistence.Repositories;
 using EventApp.Domain.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
+using FluentValidation;
 
 namespace EventApp.Persistence
 {
@@ -30,6 +31,9 @@ namespace EventApp.Persistence
             services.AddScoped<ICompanyWriteRepository, CompanyWriteRepository>();
             services.AddScoped<IUserCompanyReadRepository, UserCompanyReadRepository>();
             services.AddScoped<IUserCompanyWriteRepository, UserCompanyWriteRepository>();
-      }
+            
+            
+            
+        }
     }
 }
