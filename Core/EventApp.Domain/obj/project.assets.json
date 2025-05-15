@@ -828,7 +828,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
+<<<<<<< HEAD
+      "SdkAnalysisLevel": "9.0.300"
+=======
       "SdkAnalysisLevel": "9.0.100"
+>>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
     },
     "frameworks": {
       "net9.0": {
@@ -855,7 +859,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+=======
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
       }
     }
   }
