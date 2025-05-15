@@ -22,4 +22,8 @@
     <ProjectReference Include="..\..\Infrastructure\EventApp.Persistence\EventApp.Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>

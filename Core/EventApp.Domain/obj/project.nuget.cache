@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "yPxc8GwHCnU=",
-=======
-  "dgSpecHash": "wmQrAW9AQdg=",
->>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
+  "dgSpecHash": "UaIXM4dy/5Q=",
   "success": true,
   "projectFilePath": "/home/esta/Documents/eventApp/Core/EventApp.Domain/EventApp.Domain.csproj",
   "expectedPackageFiles": [
@@ -27,5 +23,12 @@
     "/home/esta/.nuget/packages/microsoft.extensions.options/9.0.3/microsoft.extensions.options.9.0.3.nupkg.sha512",
     "/home/esta/.nuget/packages/microsoft.extensions.primitives/9.0.3/microsoft.extensions.primitives.9.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /home/esta/Documents/eventApp/Core/EventApp.Domain/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

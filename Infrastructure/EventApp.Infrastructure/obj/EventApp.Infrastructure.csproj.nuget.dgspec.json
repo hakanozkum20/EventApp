@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj",
-        "projectName": "EventApp.Application",
-        "projectPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj",
-        "packagesPath": "C:\\Users\\ESTA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\obj\\",
-=======
     "/home/esta/Documents/eventApp/Infrastructure/EventApp.Infrastructure/EventApp.Infrastructure.csproj": {}
   },
   "projects": {
@@ -25,7 +12,6 @@
         "projectPath": "/home/esta/Documents/eventApp/Core/EventApp.Application/EventApp.Application.csproj",
         "packagesPath": "/home/esta/.nuget/packages/",
         "outputPath": "/home/esta/Documents/eventApp/Core/EventApp.Application/obj/",
->>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/esta/.nuget/NuGet/NuGet.Config"
@@ -40,13 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj"
-=======
               "/home/esta/Documents/eventApp/Core/EventApp.Domain/EventApp.Domain.csproj": {
                 "projectPath": "/home/esta/Documents/eventApp/Core/EventApp.Domain/EventApp.Domain.csproj"
->>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
               }
             }
           }
@@ -61,17 +42,12 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-<<<<<<< HEAD
-        "SdkAnalysisLevel": "9.0.300"
-=======
         "SdkAnalysisLevel": "9.0.100"
->>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-<<<<<<< HEAD
             "FluentValidation": {
               "target": "Package",
               "version": "[11.11.0, )"
@@ -91,11 +67,10 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.1.0, )"
-=======
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[5.0.17, )"
->>>>>>> origin/master
             }
           },
           "imports": [
@@ -114,21 +89,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj",
-        "projectName": "EventApp.Domain",
-        "projectPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\EventApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\ESTA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\obj\\",
-=======
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -140,7 +101,6 @@
         "projectPath": "/home/esta/Documents/eventApp/Core/EventApp.Domain/EventApp.Domain.csproj",
         "packagesPath": "/home/esta/.nuget/packages/",
         "outputPath": "/home/esta/Documents/eventApp/Core/EventApp.Domain/obj/",
->>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/esta/.nuget/NuGet/NuGet.Config"
@@ -167,11 +127,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-<<<<<<< HEAD
-        "SdkAnalysisLevel": "9.0.300"
-=======
         "SdkAnalysisLevel": "9.0.100"
->>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
       },
       "frameworks": {
         "net9.0": {
@@ -198,21 +154,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj",
-        "projectName": "EventApp.Infrastructure",
-        "projectPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ESTA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Infrastructure\\obj\\",
-=======
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -224,7 +166,6 @@
         "projectPath": "/home/esta/Documents/eventApp/Infrastructure/EventApp.Infrastructure/EventApp.Infrastructure.csproj",
         "packagesPath": "/home/esta/.nuget/packages/",
         "outputPath": "/home/esta/Documents/eventApp/Infrastructure/EventApp.Infrastructure/obj/",
->>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/esta/.nuget/NuGet/NuGet.Config"
@@ -239,13 +180,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj": {
-                "projectPath": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj"
-=======
               "/home/esta/Documents/eventApp/Core/EventApp.Application/EventApp.Application.csproj": {
                 "projectPath": "/home/esta/Documents/eventApp/Core/EventApp.Application/EventApp.Application.csproj"
->>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
               }
             }
           }
@@ -260,11 +196,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-<<<<<<< HEAD
-        "SdkAnalysisLevel": "9.0.300"
-=======
         "SdkAnalysisLevel": "9.0.100"
->>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
       },
       "frameworks": {
         "net9.0": {
@@ -285,11 +217,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
->>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

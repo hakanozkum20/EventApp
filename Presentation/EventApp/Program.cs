@@ -1,5 +1,6 @@
 
 using EventApp.Application.ViewModels.Companies;
+using EventApp.Infrastructure;
 using EventApp.Infrastructure.Filters;
 using EventApp.Persistence;
 using FluentValidation;
@@ -9,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddPersistenceServices();
+builder.Services.AddInfrastructureService();
 
 builder.Services.AddCors(opt => opt.AddDefaultPolicy(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 
@@ -38,7 +40,9 @@ if (app.Environment.IsDevelopment())
     });
     
     
-    }
+}
+
+app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 

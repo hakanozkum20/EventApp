@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EventApp.Application.Repositories;
+using EventApp.Application.RequestParameters;
+using EventApp.Application.Services;
 using EventApp.Application.ViewModels.Companies;
 using EventApp.Domain.Entities;
 using Microsoft.AspNetCore.Http;
@@ -16,11 +18,15 @@ namespace EventApp
     {
         private readonly ICompanyReadRepository _companyReadRepository;
         private readonly ICompanyWriteRepository _companyWriteRepository;
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IFileService _fileService;
 
-        public CompanyController(ICompanyReadRepository companyReadRepository, ICompanyWriteRepository companyWriteRepository)
+        public CompanyController(ICompanyReadRepository companyReadRepository, ICompanyWriteRepository companyWriteRepository,IWebHostEnvironment webHostEnvironment, IFileService fileService)
         {
             _companyReadRepository = companyReadRepository;
             _companyWriteRepository = companyWriteRepository;
+            this._webHostEnvironment = webHostEnvironment;
+            _fileService = fileService;
         }
 
         /// <summary>
@@ -29,10 +35,21 @@ namespace EventApp
         /// <returns>Şirket listesi</returns>
         [HttpGet]
         [ProducesResponseType(typeof(List<Company>), StatusCodes.Status200OK)]
-        public IActionResult GetAll()
+        public IActionResult GetAll( [FromQuery] Pagination pagination)
         {
-            var companies = _companyReadRepository.GetAll(false).ToList();
-            return Ok(companies);
+            var totalCount = _companyReadRepository.GetAll(false).Count();
+            var companies = _companyReadRepository.GetAll(false).Skip(pagination.Page * pagination.Size).Take(pagination.Size).Select(c => new
+            {
+                c.Id,
+                c.Name,
+                c.CustomerId,
+                c.UserCompanies
+            }).ToList();
+            return Ok(new
+            {
+                totalCount,
+                companies
+            });
         }
 
         /// <summary>
@@ -45,9 +62,9 @@ namespace EventApp
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetById(string id)
         {
-            var company = await _companyReadRepository.GetByIdAsync(id);
-            if (company == null)
-                return NotFound($"Şirket bulunamadı: {id}");
+            var company = await _companyReadRepository.GetByIdAsync(id,false);
+            
+            
 
             return Ok(company);
         }
@@ -94,8 +111,6 @@ namespace EventApp
             // Fluent Validation ile doğrulama yapılıyor
 
             var company = await _companyReadRepository.GetByIdAsync(id);
-            if (company == null)
-                return NotFound($"Şirket bulunamadı: {id}");
 
             company.Name = model.Name;
             company.CustomerId = model.CustomerId;
@@ -142,6 +157,13 @@ namespace EventApp
             await _companyWriteRepository.SaveAsync();
 
             return Ok("Örnek şirketler eklendi");
+        }
+
+       [HttpPost("[action]")]
+        public async Task<IActionResult> Upload()
+        {
+            await _fileService.UploadAsync("resource/company-images",Request.Form.Files);
+            return Ok();
         }
     }
 }
