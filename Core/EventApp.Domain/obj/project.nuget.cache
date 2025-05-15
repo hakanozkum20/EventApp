@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "yPxc8GwHCnU=",
+=======
   "dgSpecHash": "wmQrAW9AQdg=",
+>>>>>>> 9c32531e80f614960425931a157af29c1d4089aa
   "success": true,
   "projectFilePath": "/home/esta/Documents/eventApp/Core/EventApp.Domain/EventApp.Domain.csproj",
   "expectedPackageFiles": [

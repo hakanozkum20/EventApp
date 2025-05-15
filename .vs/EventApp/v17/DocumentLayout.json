@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\ESTA\\Documents\\EventApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|c:\\users\\esta\\documents\\eventapp\\infrastructure\\eventapp.persistence\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|solutionrelative:infrastructure\\eventapp.persistence\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BF43506-611E-4AEC-BDC9-CC6D3152D1A0}|Presentation\\EventApp\\EventApp.API.csproj|c:\\users\\esta\\documents\\eventapp\\presentation\\eventapp\\eventapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6BF43506-611E-4AEC-BDC9-CC6D3152D1A0}|Presentation\\EventApp\\EventApp.API.csproj|solutionrelative:presentation\\eventapp\\eventapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|c:\\users\\esta\\documents\\eventapp\\infrastructure\\eventapp.persistence\\eventapp.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|solutionrelative:infrastructure\\eventapp.persistence\\eventapp.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|c:\\users\\esta\\documents\\eventapp\\core\\eventapp.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|solutionrelative:core\\eventapp.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62BEEAA2-EB53-4EC6-98F5-345775233FB9}|Core\\EventApp.Application\\EventApp.Application.csproj|c:\\users\\esta\\documents\\eventapp\\core\\eventapp.application\\abstactions\\storage\\istorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BEEAA2-EB53-4EC6-98F5-345775233FB9}|Core\\EventApp.Application\\EventApp.Application.csproj|solutionrelative:core\\eventapp.application\\abstactions\\storage\\istorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|c:\\users\\esta\\documents\\eventapp\\infrastructure\\eventapp.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|solutionrelative:infrastructure\\eventapp.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|c:\\users\\esta\\documents\\eventapp\\core\\eventapp.domain\\entities\\coachtale\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|solutionrelative:core\\eventapp.domain\\entities\\coachtale\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|c:\\users\\esta\\documents\\eventapp\\core\\eventapp.domain\\entities\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|solutionrelative:core\\eventapp.domain\\entities\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|c:\\users\\esta\\documents\\eventapp\\core\\eventapp.domain\\entities\\usercompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|solutionrelative:core\\eventapp.domain\\entities\\usercompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|c:\\users\\esta\\documents\\eventapp\\core\\eventapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|solutionrelative:core\\eventapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|c:\\users\\esta\\documents\\eventapp\\infrastructure\\eventapp.persistence\\contexts\\eventappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|solutionrelative:infrastructure\\eventapp.persistence\\contexts\\eventappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|c:\\users\\esta\\documents\\eventapp\\infrastructure\\eventapp.persistence\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|solutionrelative:infrastructure\\eventapp.persistence\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|c:\\users\\esta\\documents\\eventapp\\infrastructure\\eventapp.persistence\\designtimedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0B2224-1F94-41B5-8F94-DC93C4E8FD16}|Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj|solutionrelative:infrastructure\\eventapp.persistence\\designtimedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BEEAA2-EB53-4EC6-98F5-345775233FB9}|Core\\EventApp.Application\\EventApp.Application.csproj|c:\\users\\esta\\documents\\eventapp\\core\\eventapp.application\\eventapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{62BEEAA2-EB53-4EC6-98F5-345775233FB9}|Core\\EventApp.Application\\EventApp.Application.csproj|solutionrelative:core\\eventapp.application\\eventapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|c:\\users\\esta\\documents\\eventapp\\core\\eventapp.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE70B42-4BC9-4CAD-9057-99A960FB1C54}|Core\\EventApp.Domain\\EventApp.Domain.csproj|solutionrelative:core\\eventapp.domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,45 +59,123 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IStorage.cs",
+              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\Abstactions\\Storage\\IStorage.cs",
+              "RelativeDocumentMoniker": "Core\\EventApp.Application\\Abstactions\\Storage\\IStorage.cs",
+              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\Abstactions\\Storage\\IStorage.cs",
+              "RelativeToolTip": "Core\\EventApp.Application\\Abstactions\\Storage\\IStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T18:56:49.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventApp.Application",
+              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj",
+              "RelativeDocumentMoniker": "Core\\EventApp.Application\\EventApp.Application.csproj",
+              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Application\\EventApp.Application.csproj",
+              "RelativeToolTip": "Core\\EventApp.Application\\EventApp.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-14T15:36:55.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\Entities\\CoachTale\\User.cs",
+              "RelativeDocumentMoniker": "Core\\EventApp.Domain\\Entities\\CoachTale\\User.cs",
+              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\Entities\\CoachTale\\User.cs",
+              "RelativeToolTip": "Core\\EventApp.Domain\\Entities\\CoachTale\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:41:56.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\Entities\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Core\\EventApp.Domain\\Entities\\Identity\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\Entities\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "Core\\EventApp.Domain\\Entities\\Identity\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:41:08.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserCompany.cs",
+              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\Entities\\UserCompany.cs",
+              "RelativeDocumentMoniker": "Core\\EventApp.Domain\\Entities\\UserCompany.cs",
+              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\Entities\\UserCompany.cs",
+              "RelativeToolTip": "Core\\EventApp.Domain\\Entities\\UserCompany.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:40:07.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Core\\EventApp.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Core\\EventApp.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:40:01.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Persistence\\Contexts\\EventAppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EventApp.Persistence\\Contexts\\EventAppDbContext.cs",
+              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Persistence\\Contexts\\EventAppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\EventApp.Persistence\\Contexts\\EventAppDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:37:17.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DesignTimeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Persistence\\DesignTimeDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EventApp.Persistence\\DesignTimeDbContext.cs",
+              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Persistence\\DesignTimeDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\EventApp.Persistence\\DesignTimeDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T15:35:46.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Persistence\\Configuration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EventApp.Persistence\\Configuration.cs",
               "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Persistence\\Configuration.cs",
               "RelativeToolTip": "Infrastructure\\EventApp.Persistence\\Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T22:15:32.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EventApp.Persistence.csproj",
-              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj",
-              "RelativeDocumentMoniker": "Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj",
-              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj",
-              "RelativeToolTip": "Infrastructure\\EventApp.Persistence\\EventApp.Persistence.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-06T14:55:58.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EventApp.API.csproj",
-              "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Presentation\\EventApp\\EventApp.API.csproj",
-              "RelativeDocumentMoniker": "Presentation\\EventApp\\EventApp.API.csproj",
-              "ToolTip": "C:\\Users\\ESTA\\Documents\\EventApp\\Presentation\\EventApp\\EventApp.API.csproj",
-              "RelativeToolTip": "Presentation\\EventApp\\EventApp.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-06T14:49:51.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Infrastructure\\EventApp.Persistence\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EventApp.Persistence\\ServiceRegistration.cs",
@@ -81,11 +183,12 @@
               "RelativeToolTip": "Infrastructure\\EventApp.Persistence\\ServiceRegistration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T12:58:23.864Z"
+              "WhenOpened": "2025-04-06T12:58:23.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\ESTA\\Documents\\EventApp\\Core\\EventApp.Domain\\Entities\\Company.cs",
               "RelativeDocumentMoniker": "Core\\EventApp.Domain\\Entities\\Company.cs",
