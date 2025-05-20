@@ -2,6 +2,7 @@
 using EventApp.Application.ViewModels.Companies;
 using EventApp.Infrastructure;
 using EventApp.Infrastructure.Filters;
+using EventApp.Infrastructure.Services.Storage.Local;
 using EventApp.Persistence;
 using FluentValidation;
 using Scalar.AspNetCore;
@@ -11,6 +12,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureService();
+
+builder.Services.AddStorage<LocalStorage>();
+// builder.Services.AddStorage();
 
 builder.Services.AddCors(opt => opt.AddDefaultPolicy(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 

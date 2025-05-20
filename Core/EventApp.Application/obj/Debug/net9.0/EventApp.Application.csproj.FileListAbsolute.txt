@@ -30,3 +30,5 @@ C:/Users/ESTA/Documents/EventApp/Core/EventApp.Application/obj/Debug/net9.0/ref/
 /home/esta/Documents/eventApp/Core/EventApp.Application/obj/Debug/net9.0/refint/EventApp.Application.dll
 /home/esta/Documents/eventApp/Core/EventApp.Application/obj/Debug/net9.0/EventApp.Application.pdb
 /home/esta/Documents/eventApp/Core/EventApp.Application/obj/Debug/net9.0/ref/EventApp.Application.dll
+/home/esta/Documents/eventApp/Core/EventApp.Application/bin/Debug/net9.0/EventApp.Application.runtimeconfig.json
+/home/esta/Documents/eventApp/Core/EventApp.Application/obj/Debug/net9.0/EventApp.Application.genruntimeconfig.cache

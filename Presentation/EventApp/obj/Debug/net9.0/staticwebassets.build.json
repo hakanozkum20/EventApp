@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "WFaCPCfVIgcck/kXdx2cAsyS/sDsHxIsjWwfXADIJMw=",
+  "Hash": "EgwG4HrDGHscU5ddEGjPC7vB3FfcNhpEFg+ALQ1H7LI=",
   "Source": "EventApp.API",
   "BasePath": "_content/EventApp.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EventApp.API/wwwroot",
+      "Source": "EventApp.API",
+      "ContentRoot": "/home/esta/Documents/eventApp/Presentation/EventApp/wwwroot/",
+      "BasePath": "_content/EventApp.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }

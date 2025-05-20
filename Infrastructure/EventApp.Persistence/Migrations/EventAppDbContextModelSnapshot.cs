@@ -22,6 +22,41 @@ namespace EventApp.Persistence.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("EventApp.Domain.Entities.CoachTale.File", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(13)
+                        .HasColumnType("character varying(13)");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Path")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Storage")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Files");
+
+                    b.HasDiscriminator().HasValue("File");
+
+                    b.UseTphMappingStrategy();
+                });
+
             modelBuilder.Entity("EventApp.Domain.Entities.Company", b =>
                 {
                     b.Property<Guid>("Id")
@@ -105,10 +140,6 @@ namespace EventApp.Persistence.Migrations
 
                     b.Property<int>("EventType")
                         .HasColumnType("integer");
-
-                    b.Property<string>("Location")
-                        .IsRequired()
-                        .HasColumnType("text");
 
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("timestamp with time zone");
@@ -226,6 +257,27 @@ namespace EventApp.Persistence.Migrations
                     b.HasIndex("CompanyId");
 
                     b.ToTable("UserCompanies");
+                });
+
+            modelBuilder.Entity("EventApp.Domain.Entities.CoachTale.InvoiceFile", b =>
+                {
+                    b.HasBaseType("EventApp.Domain.Entities.CoachTale.File");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
+
+                    b.HasDiscriminator().HasValue("InvoiceFile");
+                });
+
+            modelBuilder.Entity("EventApp.Domain.Entities.CoachTale.TestFile", b =>
+                {
+                    b.HasBaseType("EventApp.Domain.Entities.CoachTale.File");
+
+                    b.Property<string>("Question")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasDiscriminator().HasValue("TestFile");
                 });
 
             modelBuilder.Entity("EventApp.Domain.Entities.Company", b =>

@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using EventApp.Application.Repositories;
 using EventApp.Application.RequestParameters;
-using EventApp.Application.Services;
 using EventApp.Application.ViewModels.Companies;
 using EventApp.Domain.Entities;
 using Microsoft.AspNetCore.Http;
@@ -19,14 +18,14 @@ namespace EventApp
         private readonly ICompanyReadRepository _companyReadRepository;
         private readonly ICompanyWriteRepository _companyWriteRepository;
         private readonly IWebHostEnvironment _webHostEnvironment;
-        private readonly IFileService _fileService;
 
-        public CompanyController(ICompanyReadRepository companyReadRepository, ICompanyWriteRepository companyWriteRepository,IWebHostEnvironment webHostEnvironment, IFileService fileService)
+
+        public CompanyController(ICompanyReadRepository companyReadRepository, ICompanyWriteRepository companyWriteRepository,IWebHostEnvironment webHostEnvironment  )
         {
             _companyReadRepository = companyReadRepository;
             _companyWriteRepository = companyWriteRepository;
             this._webHostEnvironment = webHostEnvironment;
-            _fileService = fileService;
+           
         }
 
         /// <summary>
@@ -162,8 +161,7 @@ namespace EventApp
        [HttpPost("[action]")]
         public async Task<IActionResult> Upload()
         {
-            await _fileService.UploadAsync("resource/company-images",Request.Form.Files);
-            return Ok();
+             return Ok();
         }
     }
 }

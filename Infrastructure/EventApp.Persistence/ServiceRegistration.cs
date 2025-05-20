@@ -31,9 +31,16 @@ namespace EventApp.Persistence
             services.AddScoped<ICompanyWriteRepository, CompanyWriteRepository>();
             services.AddScoped<IUserCompanyReadRepository, UserCompanyReadRepository>();
             services.AddScoped<IUserCompanyWriteRepository, UserCompanyWriteRepository>();
+            services.AddScoped<IFileReadRepository, FileReadRepository>();
+            services.AddScoped<IFileWriteRepository, FileWriteRepository>();
+            services.AddScoped<IInvoiceFileReadRepository, InvoiceReadRepository>();
+            services.AddScoped<IInvoiceFileWriteRepository, InvoiceWriteRepository>();
+            services.AddScoped<ITestFileReadRepository, TestFileReadRepository>();
+            services.AddScoped<ITestFileWriteRepository, TestFileWriteRepository>();
             
-            
-            
+
+
+
         }
     }
 }

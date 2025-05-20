@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace EventApp.Application.Abstactions.Storage
+namespace EventApp.Application.Abstractions.Storage
 {
     public interface IStorage
     {

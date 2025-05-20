@@ -303,3 +303,7 @@ C:/Users/ESTA/Documents/EventApp/Presentation/EventApp/bin/Debug/net9.0/Scalar.A
 /home/esta/Documents/eventApp/Presentation/EventApp/bin/Debug/net9.0/FluentValidation.dll
 /home/esta/Documents/eventApp/Presentation/EventApp/bin/Debug/net9.0/FluentValidation.AspNetCore.dll
 /home/esta/Documents/eventApp/Presentation/EventApp/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/esta/Documents/eventApp/Presentation/EventApp/bin/Debug/net9.0/EventApp.API.staticwebassets.runtime.json
+/home/esta/Documents/eventApp/Presentation/EventApp/bin/Debug/net9.0/MediatR.dll
+/home/esta/Documents/eventApp/Presentation/EventApp/bin/Debug/net9.0/MediatR.Contracts.dll
+/home/esta/Documents/eventApp/Presentation/EventApp/bin/Debug/net9.0/MediatR.Extensions.Microsoft.DependencyInjection.dll

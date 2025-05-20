@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EventApp.Domain.Entities;
+using EventApp.Domain.Entities.CoachTale;
 using EventApp.Domain.Entities.Common;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -21,27 +22,29 @@ namespace EventApp.Persistence.Contexts
         public DbSet<Customer> Customers { get; set; }
         public DbSet<UserCompany> UserCompanies { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<Domain.Entities.CoachTale.File> Files { get; set; }
+        public DbSet<InvoiceFile> InvoiceFiles { get; set; }
+        public DbSet<TestFile> TestFiles { get; set; }
+        
+        
 
         
 
-         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
-        {
-            // Audit fields (CreatedDate, UpdatedDate) için otomatik değer atama
-            foreach (var entry in ChangeTracker.Entries<BaseEntity>())
+         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+         {
+             var datas = ChangeTracker.Entries<BaseEntity>();
+;            // Audit fields (CreatedDate, UpdatedDate) için otomatik değer atama
+            foreach (var data in datas )
             {
-                switch (entry.State)
+                _ = data.State switch
                 {
-                    case EntityState.Added:
-                        entry.Entity.CreatedDate = DateTime.UtcNow;
-                        entry.Entity.UpdatedDate = DateTime.UtcNow;
-                        break;
-                    case EntityState.Modified:
-                        entry.Entity.UpdatedDate = DateTime.UtcNow;
-                        break;
-                }
+                    EntityState.Added => data.Entity.CreatedDate = DateTime.Now,
+                    EntityState.Modified => data.Entity.UpdatedDate = DateTime.Now,
+                    _ => DateTime.UtcNow
+                };
             }
 
-            return base.SaveChangesAsync(cancellationToken);
+            return await base.SaveChangesAsync(cancellationToken);
         }
     }
 }
