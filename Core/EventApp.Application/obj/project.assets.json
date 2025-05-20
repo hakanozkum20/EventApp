@@ -3065,11 +3065,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/esta/Documents/eventApp/Core/EventApp.Application/EventApp.Application.csproj",
+      "projectUniqueName": "/home/esta/Documents/EventApp/Core/EventApp.Application/EventApp.Application.csproj",
       "projectName": "EventApp.Application",
-      "projectPath": "/home/esta/Documents/eventApp/Core/EventApp.Application/EventApp.Application.csproj",
+      "projectPath": "/home/esta/Documents/EventApp/Core/EventApp.Application/EventApp.Application.csproj",
       "packagesPath": "/home/esta/.nuget/packages/",
-      "outputPath": "/home/esta/Documents/eventApp/Core/EventApp.Application/obj/",
+      "outputPath": "/home/esta/Documents/EventApp/Core/EventApp.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/esta/.nuget/NuGet/NuGet.Config"
@@ -3084,8 +3084,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/esta/Documents/eventApp/Core/EventApp.Domain/EventApp.Domain.csproj": {
-              "projectPath": "/home/esta/Documents/eventApp/Core/EventApp.Domain/EventApp.Domain.csproj"
+            "/home/esta/Documents/EventApp/Core/EventApp.Domain/EventApp.Domain.csproj": {
+              "projectPath": "/home/esta/Documents/EventApp/Core/EventApp.Domain/EventApp.Domain.csproj"
             }
           }
         }
@@ -3144,13 +3144,27 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.3, 9.0.3]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /home/esta/Documents/EventApp/Core/EventApp.Application/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

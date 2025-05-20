@@ -11,6 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddPersistenceServices();
+<<<<<<< Updated upstream
 builder.Services.AddInfrastructureService();
 
 builder.Services.AddStorage<LocalStorage>();
@@ -25,6 +26,10 @@ builder.Services.AddControllers(op => op.Filters.Add<ValidationFilter>());
 
 
 
+=======
+builder.Services.AddCors(opt => opt.AddDefaultPolicy(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000")));
+builder.Services.AddControllers();
+>>>>>>> Stashed changes
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 

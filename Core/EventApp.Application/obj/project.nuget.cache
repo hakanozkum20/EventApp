@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3uQpqHfWXI8=",
+  "dgSpecHash": "xEwnjjohGqA=",
   "success": true,
-  "projectFilePath": "/home/esta/Documents/eventApp/Core/EventApp.Application/EventApp.Application.csproj",
+  "projectFilePath": "/home/esta/Documents/EventApp/Core/EventApp.Application/EventApp.Application.csproj",
   "expectedPackageFiles": [
     "/home/esta/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
     "/home/esta/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
@@ -51,7 +51,15 @@
     "/home/esta/.nuget/packages/system.reflection.metadata/7.0.0/system.reflection.metadata.7.0.0.nupkg.sha512",
     "/home/esta/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/esta/.nuget/packages/system.text.json/9.0.3/system.text.json.9.0.3.nupkg.sha512",
-    "/home/esta/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512"
+    "/home/esta/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
+    "/home/esta/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.3/microsoft.aspnetcore.app.ref.9.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /home/esta/Documents/EventApp/Core/EventApp.Application/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

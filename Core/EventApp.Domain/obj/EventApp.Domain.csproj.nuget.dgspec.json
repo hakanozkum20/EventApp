@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/esta/Documents/eventApp/Core/EventApp.Domain/EventApp.Domain.csproj": {}
+    "/home/esta/Documents/EventApp/Core/EventApp.Domain/EventApp.Domain.csproj": {}
   },
   "projects": {
-    "/home/esta/Documents/eventApp/Core/EventApp.Domain/EventApp.Domain.csproj": {
+    "/home/esta/Documents/EventApp/Core/EventApp.Domain/EventApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/esta/Documents/eventApp/Core/EventApp.Domain/EventApp.Domain.csproj",
+        "projectUniqueName": "/home/esta/Documents/EventApp/Core/EventApp.Domain/EventApp.Domain.csproj",
         "projectName": "EventApp.Domain",
-        "projectPath": "/home/esta/Documents/eventApp/Core/EventApp.Domain/EventApp.Domain.csproj",
+        "projectPath": "/home/esta/Documents/EventApp/Core/EventApp.Domain/EventApp.Domain.csproj",
         "packagesPath": "/home/esta/.nuget/packages/",
-        "outputPath": "/home/esta/Documents/eventApp/Core/EventApp.Domain/obj/",
+        "outputPath": "/home/esta/Documents/EventApp/Core/EventApp.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/esta/.nuget/NuGet/NuGet.Config"
@@ -70,12 +70,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.3, 9.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
